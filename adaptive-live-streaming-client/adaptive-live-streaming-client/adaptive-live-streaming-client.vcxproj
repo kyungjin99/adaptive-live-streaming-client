@@ -19,7 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="constants.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="read-cmd.cpp" />
+    <ClCompile Include="write-batch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="constants.h" />
+    <ClInclude Include="read-cmd.h" />
+    <ClInclude Include="write-batch.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
